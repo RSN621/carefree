@@ -1,0 +1,48 @@
+
+#配置数据源
+spring:
+  #MyBatis整合
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xyershou?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: 20030621
+  devtools:
+    restart:
+      enabled: false #是否开启开发者工具(true/false)
+mybatis-plus:
+  mapper-locations: classpath:com/nz/dao/*Mapper.xml
+  configuration:
+    map-underscore-to-camel-case: false
+
+server:
+  port: 6060
+  # profile配置
+https:
+  converters:
+    preferred-json-mapper: fastjson
+freemarker:
+    # 修改freemarker里规定的后缀
+    suffix: .ftl
+    # 文件路径
+    template-loader-path: classpath:/templates/
+    # 编码
+    charset: utf-8
+thymeleaf:
+    encoding: UTF-8
+    suffix: .html
+    prefix: classpath:/static/
+    # 页面缓存
+    cache: false
+resources:
+    static-locations: classpath:/src/main/webapp
+# log配置
+logging:
+  config: D:\软件技术\WorkSapaceIdea\carefree\src\main\resources\logback-spring.xml
+  level:
+    com.nz.dao: DEBUG
+
+# p6spy sql打印
+decorator:
+  datasource:
+    enabled: true # 是否启用
