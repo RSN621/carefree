@@ -1,14 +1,14 @@
 package com.nz.entity;
 
 public class user {
-    private int id;
-    private String name;
-    private String student_id;
-    private String phone;
-    private String email;
-    private String password;
-    private String identity_card;
-    private String credit_score;
+    private int id;//用户id
+    private String name;//用户名
+    private String student_id;//学号
+    private String phone;//手机号
+    private String email;//邮箱
+    private String password;//密码
+    private String identity_card;//身份证号
+    private String credit_score;//信用评分
 
     public user() {
     }

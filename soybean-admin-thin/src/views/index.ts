@@ -8,5 +8,9 @@ export const views: Record<RouterPage.LastDegreeRouteKey, RouteComponent | (() =
   login: () => import('./_builtin/login/index.vue'),
   'not-found': () => import('./_builtin/not-found/index.vue'),
   'multi-menu_first_second-new_third': () => import('./multi-menu/first/second-new/third/index.vue'),
-  'multi-menu_first_second': () => import('./multi-menu/first/second/index.vue')
+  'multi-menu_first_second': () => import('./multi-menu/first/second/index.vue'),
+  slw_ccl: () => import('./slw/ccl/index.vue'),
+  slw_hyq: () => import('./slw/hyq/index.vue'),
+  slw_jc: () => import('./slw/jc/index.vue'),
+  slw_zhr: () => import('./slw/zhr/index.vue')
 };
