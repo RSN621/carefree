@@ -4,522 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4500d0-42ad-4f57-8955-02f261907ebe" name="变更" comment="3.28 12:37">
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/.env-config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/mock/api/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/mock/api/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/mock/api/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/mock/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/mock/model/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/mock/model/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/mock/model/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/patches/mockjs@1.1.0.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/pnpm-lock.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/public/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/fonts/aguazyuan-bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/fonts/aguazyuan-light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/fonts/aguazyuan-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/activity.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/at-sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/avatar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/banner.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/cast.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/chrome.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/custom-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/empty-data.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/heart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/logo-fill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/network-error.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/no-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/no-permission.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/not-found.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/service-error.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/assets/svg-icon/wind.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/components/business/LoadingEmptyWrapper.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/components/business/LoginAgreement.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/components/common/AppLoading.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/components/common/DarkModeContainer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/components/common/DarkModeSwitch.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/components/common/ExceptionBase.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/components/common/HoverContainer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/components/common/NaiveProvider.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/components/common/SystemLogo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/components/custom/BetterScroll.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/components/custom/SvgIcon.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/composables/events.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/composables/icon.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/composables/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/composables/layout.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/composables/router.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/composables/system.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/config/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/config/regexp.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/config/service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/context/demo.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/context/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/directives/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/directives/login.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/directives/network.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/directives/permission.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/enum/business.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/enum/common.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/enum/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/enum/system.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/hooks/business/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/hooks/business/useCountDown.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/hooks/business/useSmsCode.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/hooks/common/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/hooks/common/useBoolean.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/hooks/common/useContext.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/hooks/common/useLoading.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/hooks/common/useLoadingEmpty.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/hooks/common/useReload.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/hooks/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/BasicLayout/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/BlankLayout/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalBackTop/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalContent/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalFooter/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalHeader/components/FullScreen.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalHeader/components/GlobalBreadcrumb.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalHeader/components/HeaderMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalHeader/components/MenuCollapse.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalHeader/components/SettingButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalHeader/components/ThemeMode.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalHeader/components/UserAvatar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalHeader/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalHeader/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalLogo/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalMixSider/components/MixMenuCollapse.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalMixSider/components/MixMenuDetail.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalMixSider/components/MixMenuDrawer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalMixSider/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalMixSider/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalSider/components/VerticalMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalSider/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalSider/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalSider/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalSider/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalTab/components/ReloadButton/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalTab/components/TabDetail/components/ContextMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalTab/components/TabDetail/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalTab/components/TabDetail/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalTab/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/GlobalTab/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/DarkMode/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/DrawerButton/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/LayoutMode/components/LayoutCheckbox.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/LayoutMode/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/LayoutMode/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/PageFunc/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/PageView/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/SettingMenu/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/ThemeColorSelect/components/ColorCheckbox.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/ThemeColorSelect/components/ColorModal.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/ThemeColorSelect/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/ThemeColorSelect/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/ThemeConfig/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/SettingDrawer/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/common/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/layouts/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/plugins/assets.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/plugins/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/guard/dynamic.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/guard/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/guard/permission.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/helpers/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/helpers/scroll.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/modules/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/modules/multi-menu.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/modules/slw.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/routes/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/service/api/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/service/api/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/service/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/service/request/helpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/service/request/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/service/request/instance.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/service/request/request.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/settings/color.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/settings/color.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/settings/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/settings/theme.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/settings/theme.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/app/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/auth/helpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/auth/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/route/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/setup-store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/tab/helpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/tab/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/theme/helpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/theme/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/plugins/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/subscribe/app.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/subscribe/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/subscribe/theme.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/styles/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/styles/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/styles/css/scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/styles/css/transition.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/styles/scss/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/styles/scss/scrollbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/api.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/business.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/expose.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/global.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/naive-ui.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/route.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/router-page.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/router.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/storage.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/system.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/utils.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/common/color.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/common/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/common/number.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/common/pattern.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/common/typeof.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/crypto/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/form/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/form/rule.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/router/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/router/breadcrumb.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/router/cache.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/router/component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/router/helpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/router/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/router/menu.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/router/module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/router/regexp.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/router/transform.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/service/error.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/service/handler.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/service/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/service/msg.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/service/transform.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/storage/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/storage/local.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/storage/session.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/403/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/404/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/500/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/constant-page/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/BindWechat/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/CodeLogin/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/LoginBg/components/CornerBottom.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/LoginBg/components/CornerTop.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/LoginBg/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/LoginBg/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/PwdLogin/components/OtherAccount.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/PwdLogin/components/OtherLogin.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/PwdLogin/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/PwdLogin/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/Register/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/ResetPwd/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/not-found/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/multi-menu/first/second-new/third/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/multi-menu/first/second/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/ccl/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/hyq/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/jc/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/zhr/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/uno.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/vite.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/entity/credit_rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/entity/item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/entity/item_browsing_history.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/entity/message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/entity/search_history.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/entity/transaction.java" afterDir="false" />
+    <list default="true" id="ed4500d0-42ad-4f57-8955-02f261907ebe" name="变更" comment="实体类建完毕">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/CreditRatingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/ItemBrowsingHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/SearchHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/TransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/CreditRatingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/ItemBrowsingHistoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/ItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/MessageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/SearchHistoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/TransactionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/CreditRatingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/ItemBrowsingHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/SearchHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/TransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/CreditRatingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/ItemBrowsingHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/SearchHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/TransactionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CreditRatingDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ItemBrowsingHistoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ItemDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/MessageDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SearchHistoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TransactionDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nz/entity/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nz/entity/user.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nz/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nz/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/.env-config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/.env.development" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/.env.production" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/.npmrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/build/config/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/build/config/proxy.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/build/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/build/plugins/html.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/build/plugins/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/build/plugins/mock.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/build/plugins/unplugin.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/build/utils/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/mock/api/auth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/mock/api/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/mock/api/route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/mock/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/mock/model/auth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/mock/model/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/mock/model/route.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/patches/mockjs@1.1.0.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/pnpm-lock.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/public/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/fonts/aguazyuan-bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/fonts/aguazyuan-light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/fonts/aguazyuan-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/activity.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/at-sign.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/avatar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/banner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/cast.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/chrome.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/copy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/custom-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/empty-data.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/heart.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/logo-fill.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/network-error.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/no-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/no-permission.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/not-found.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/service-error.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/assets/svg-icon/wind.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/components/business/LoadingEmptyWrapper.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/components/business/LoginAgreement.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/components/common/AppLoading.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/components/common/DarkModeContainer.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/components/common/DarkModeSwitch.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/components/common/ExceptionBase.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/components/common/HoverContainer.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/components/common/NaiveProvider.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/components/common/SystemLogo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/components/custom/BetterScroll.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/components/custom/SvgIcon.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/composables/events.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/composables/icon.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/composables/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/composables/layout.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/composables/router.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/composables/system.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/config/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/config/regexp.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/config/service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/context/demo.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/context/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/directives/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/directives/login.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/directives/network.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/directives/permission.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/enum/business.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/enum/common.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/enum/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/enum/system.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/hooks/business/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/hooks/business/useCountDown.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/hooks/business/useSmsCode.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/hooks/common/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/hooks/common/useBoolean.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/hooks/common/useContext.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/hooks/common/useLoading.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/hooks/common/useLoadingEmpty.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/hooks/common/useReload.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/hooks/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/BasicLayout/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/BlankLayout/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalBackTop/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalContent/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalFooter/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalHeader/components/FullScreen.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalHeader/components/GlobalBreadcrumb.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalHeader/components/HeaderMenu.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalHeader/components/MenuCollapse.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalHeader/components/SettingButton.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalHeader/components/ThemeMode.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalHeader/components/UserAvatar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalHeader/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalHeader/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalLogo/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalMixSider/components/MixMenuCollapse.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalMixSider/components/MixMenuDetail.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalMixSider/components/MixMenuDrawer.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalMixSider/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalMixSider/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalSider/components/VerticalMenu.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalSider/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalSider/components/VerticalSider/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalSider/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalSider/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalTab/components/ReloadButton/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalTab/components/TabDetail/components/ContextMenu.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalTab/components/TabDetail/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalTab/components/TabDetail/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalTab/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/GlobalTab/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/DarkMode/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/DrawerButton/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/LayoutMode/components/LayoutCheckbox.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/LayoutMode/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/LayoutMode/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/PageFunc/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/PageView/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/SettingMenu/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/ThemeColorSelect/components/ColorCheckbox.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/ThemeColorSelect/components/ColorModal.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/ThemeColorSelect/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/ThemeColorSelect/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/ThemeConfig/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/SettingDrawer/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/common/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/layouts/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/plugins/assets.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/plugins/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/router/guard/dynamic.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/router/guard/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/router/guard/permission.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/router/helpers/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/router/helpers/scroll.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/router/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/router/modules/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/router/modules/multi-menu.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/router/routes/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/service/api/auth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/service/api/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/service/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/service/request/helpers.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/service/request/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/service/request/instance.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/service/request/request.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/settings/color.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/settings/color.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/settings/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/settings/theme.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/settings/theme.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/modules/app/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/modules/auth/helpers.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/modules/auth/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/modules/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/modules/route/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/modules/setup-store/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/modules/tab/helpers.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/modules/tab/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/modules/theme/helpers.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/modules/theme/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/plugins/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/subscribe/app.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/subscribe/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/store/subscribe/theme.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/styles/css/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/styles/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/styles/css/scrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/styles/css/transition.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/styles/scss/global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/styles/scss/scrollbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/typings/api.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/typings/business.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/typings/env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/typings/expose.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/typings/global.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/typings/naive-ui.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/typings/route.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/typings/router-page.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/typings/router.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/typings/storage.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/typings/system.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/typings/utils.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/common/color.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/common/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/common/number.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/common/pattern.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/common/typeof.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/crypto/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/form/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/form/rule.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/router/auth.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/router/breadcrumb.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/router/cache.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/router/component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/router/helpers.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/router/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/router/menu.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/router/module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/router/regexp.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/router/transform.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/service/error.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/service/handler.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/service/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/service/msg.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/service/transform.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/storage/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/storage/local.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/utils/storage/session.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/403/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/404/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/500/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/constant-page/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/BindWechat/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/CodeLogin/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/LoginBg/components/CornerBottom.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/LoginBg/components/CornerTop.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/LoginBg/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/LoginBg/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/PwdLogin/components/OtherAccount.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/PwdLogin/components/OtherLogin.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/PwdLogin/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/PwdLogin/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/Register/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/ResetPwd/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/login/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/_builtin/not-found/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/multi-menu/first/second-new/third/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/src/views/multi-menu/first/second/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/uno.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/soybean-admin-thin/vite.config.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -546,32 +78,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/软件技术/WorkSapaceIdea/carefree/soybean-admin-thin/src/router/modules&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;d68402d2f2d2ce7f3b90eef4afc1c12c&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\软件技术\\WorkSapaceIdea\\carefree\\soybean-admin-thin\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/软件技术/WorkSapaceIdea/carefree/soybean-admin-thin/src/router/modules",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "d68402d2f2d2ce7f3b90eef4afc1c12c",
+    "ts.external.directory.path": "D:\\软件技术\\WorkSapaceIdea\\carefree\\soybean-admin-thin\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\软件技术\WorkSapaceIdea\carefree\soybean-admin-thin\src\router\modules" />
@@ -581,11 +118,25 @@
       <recent name="D:\软件技术\WorkSapaceIdea\carefree\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\软件技术\WorkSapaceIdea\carefree\src\main\resources\mapper" />
       <recent name="D:\软件技术\WorkSapaceIdea\carefree" />
       <recent name="D:\软件技术\WorkSapaceIdea\carefree\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BootApplication">
+    <configuration name="Gcrentity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nz.util.Gcrentity" />
+      <module name="carefree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nz.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <module name="carefree" />
@@ -613,10 +164,12 @@
     <list>
       <item itemvalue="npm.dev" />
       <item itemvalue="Spring Boot.BootApplication" />
+      <item itemvalue="应用程序.Gcrentity" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.BootApplication" />
+        <item itemvalue="应用程序.Gcrentity" />
       </list>
     </recent_temporary>
   </component>
@@ -635,7 +188,7 @@
       <workItem from="1679980205660" duration="371000" />
       <workItem from="1679982518380" duration="12780000" />
       <workItem from="1679997189124" duration="5666000" />
-      <workItem from="1680012840918" duration="1692000" />
+      <workItem from="1680012840918" duration="6835000" />
     </task>
     <task id="LOCAL-00001" summary="3.28">
       <created>1679933400251</created>
@@ -651,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679978339466</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="实体类建完毕">
+      <created>1680016715910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680016715910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,6 +232,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="3.28" />
     <MESSAGE value="3.28 12:37" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.28 12:37" />
+    <MESSAGE value="实体类建完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="实体类建完毕" />
   </component>
 </project>

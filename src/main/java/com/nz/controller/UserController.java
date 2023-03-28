@@ -11,12 +11,13 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 @Controller
+@RequestMapping("user")
 public class UserController {
     @Autowired
     private UserDao userDao;
     @Autowired
     private UserService userService;
-    @RequestMapping("/userSelect")
+    @RequestMapping("/Select")
     @ResponseBody
     public List<user> findAll(){
         List<user> list= userDao.selectList(null);

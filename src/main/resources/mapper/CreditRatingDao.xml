@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nz.dao.CreditRatingDao">
+
+    <resultMap type="com.nz.entity.credit_rating" id="CreditRatingMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="reviewer_id" column="reviewer_id" jdbcType="INTEGER"/>
+        <result property="reviewed_id" column="reviewed_id" jdbcType="INTEGER"/>
+        <result property="content" column="content" jdbcType="VARCHAR"/>
+        <result property="created_time" column="created_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <!-- 批量插入 -->
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into xyershou.credit_rating(reviewer_id, reviewed_id, content, created_time)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.reviewerId}, #{entity.reviewedId}, #{entity.content}, #{entity.createdTime})
+        </foreach>
+    </insert>
+    <!-- 批量插入或按主键更新 -->
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into xyershou.credit_rating(reviewer_id, reviewed_id, content, created_time)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.reviewerId}, #{entity.reviewedId}, #{entity.content}, #{entity.createdTime})
+        </foreach>
+        on duplicate key update
+         reviewer_id = values(reviewer_id) , reviewed_id = values(reviewed_id) , content = values(content) , created_time = values(created_time)     </insert>
+
+</mapper>
+

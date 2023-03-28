@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nz.dao.TransactionDao">
+
+    <resultMap type="com.nz.entity.transaction" id="TransactionMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="buyer_id" column="buyer_id" jdbcType="INTEGER"/>
+        <result property="seller_id" column="seller_id" jdbcType="INTEGER"/>
+        <result property="item_id" column="item_id" jdbcType="INTEGER"/>
+        <result property="transaction_time" column="transaction_time" jdbcType="TIMESTAMP"/>
+        <result property="transaction_location" column="transaction_location" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="TransactionMap">
+        select
+          id, buyer_id, seller_id, item_id, transaction_time, transaction_location
+        from transaction
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="TransactionMap">
+        select
+          id, buyer_id, seller_id, item_id, transaction_time, transaction_location
+        from transaction
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="buyerId != null">
+                and buyer_id = #{buyerId}
+            </if>
+            <if test="sellerId != null">
+                and seller_id = #{sellerId}
+            </if>
+            <if test="itemId != null">
+                and item_id = #{itemId}
+            </if>
+            <if test="transactionTime != null">
+                and transaction_time = #{transactionTime}
+            </if>
+            <if test="transactionLocation != null and transactionLocation != ''">
+                and transaction_location = #{transactionLocation}
+            </if>
+        </where>
+        limit #{pageable.offset}, #{pageable.pageSize}
+    </select>
+
+    <!--统计总行数-->
+    <select id="count" resultType="java.lang.Long">
+        select count(1)
+        from transaction
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="buyerId != null">
+                and buyer_id = #{buyerId}
+            </if>
+            <if test="sellerId != null">
+                and seller_id = #{sellerId}
+            </if>
+            <if test="itemId != null">
+                and item_id = #{itemId}
+            </if>
+            <if test="transactionTime != null">
+                and transaction_time = #{transactionTime}
+            </if>
+            <if test="transactionLocation != null and transactionLocation != ''">
+                and transaction_location = #{transactionLocation}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into transaction(buyer_id, seller_id, item_id, transaction_time, transaction_location)
+        values (#{buyerId}, #{sellerId}, #{itemId}, #{transactionTime}, #{transactionLocation})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into transaction(buyer_id, seller_id, item_id, transaction_time, transaction_location)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+        (#{entity.buyerId}, #{entity.sellerId}, #{entity.itemId}, #{entity.transactionTime}, #{entity.transactionLocation})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into transaction(buyer_id, seller_id, item_id, transaction_time, transaction_location)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.buyerId}, #{entity.sellerId}, #{entity.itemId}, #{entity.transactionTime}, #{entity.transactionLocation})
+        </foreach>
+        on duplicate key update
+        buyer_id = values(buyer_id),
+        seller_id = values(seller_id),
+        item_id = values(item_id),
+        transaction_time = values(transaction_time),
+        transaction_location = values(transaction_location)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update transaction
+        <set>
+            <if test="buyerId != null">
+                buyer_id = #{buyerId},
+            </if>
+            <if test="sellerId != null">
+                seller_id = #{sellerId},
+            </if>
+            <if test="itemId != null">
+                item_id = #{itemId},
+            </if>
+            <if test="transactionTime != null">
+                transaction_time = #{transactionTime},
+            </if>
+            <if test="transactionLocation != null and transactionLocation != ''">
+                transaction_location = #{transactionLocation},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from transaction where id = #{id}
+    </delete>
+
+</mapper>
+

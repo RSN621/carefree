@@ -11,7 +11,7 @@ spring:
     restart:
       enabled: false #是否开启开发者工具(true/false)
 mybatis-plus:
-  mapper-locations: classpath:com/nz/dao/*Mapper.xml
+  mapper-locations: classpath:mapper/*Mapper.xml
   configuration:
     map-underscore-to-camel-case: false
 
