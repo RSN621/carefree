@@ -1,6 +1,5 @@
 import type { MockMethod } from 'vite-plugin-mock';
 import { routeModel, userModel } from '../model';
-
 const apis: MockMethod[] = [
   {
     url: '/mock/getUserRoutes',
@@ -8,10 +7,10 @@ const apis: MockMethod[] = [
     response: (options: Service.MockOption): Service.MockServiceResult => {
       const { userId = undefined } = options.body;
 
-      const routeHomeName: AuthRoute.LastDegreeRouteKey = 'multi-menu_first_second';
+      const routeHomeName: AuthRoute.LastDegreeRouteKey = 'slw_zhr';
 
       const role = userModel.find(item => item.userId === userId)?.userRole || 'user';
-
+			//const role =
       const filterRoutes = routeModel[role];
 
       return {
@@ -24,6 +23,7 @@ const apis: MockMethod[] = [
       };
     }
   }
+
 ];
 
 export default apis;

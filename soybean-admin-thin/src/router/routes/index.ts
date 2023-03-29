@@ -74,5 +74,5 @@ export const constantRoutes: AuthRoute.Route[] = [
       title: '未找到',
       singleLayout: 'blank'
     }
-  }
+  },
 ];

@@ -50,7 +50,7 @@ export default {
 		};
 	},
 	created() {
-		axios.get('/url-pattern/userSelect').then(resp => {
+		axios.get('/api/user/Select').then(resp => {
 			this.tableData=resp.data;
 		});
 	}

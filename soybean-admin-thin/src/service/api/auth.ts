@@ -1,5 +1,29 @@
 import { mockRequest } from '../request';
+import axios from "axios";
+import {router} from "@/router";
+/**
+ * axios登录
+ */
+export function axiosLogin(userName: string, password: string){
 
+	axios.post('/api/user/login',{
+		userName:userName,
+		password:password
+	}).then(res=>{
+		if(res.data===true){
+			console.log(res)
+			console.log('登录成功')
+			router.push('/slw/zhr');
+		}else {
+			console.log('登录失败')
+			router.push('/');
+		}
+	}).catch(error=>{
+		router.push('/slw/jc');
+		console.log(error)
+	})
+
+}
 /**
  * 获取验证码
  * @param phone - 手机号
@@ -15,7 +39,10 @@ export function fetchSmsCode(phone: string) {
  * @param password - 密码
  */
 export function fetchLogin(userName: string, password: string) {
+	//return mockRequest.post<ApiAuth.Token>('url-pattern/user/login', { userName, password });
+
   return mockRequest.post<ApiAuth.Token>('/login', { userName, password });
+	//return axios.post('url-pattern/user/login',{userName,password});
 }
 
 /** 获取用户信息 */

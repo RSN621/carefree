@@ -4,46 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4500d0-42ad-4f57-8955-02f261907ebe" name="变更" comment="实体类建完毕">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/CreditRatingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/ItemBrowsingHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/ItemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/MessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/SearchHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/TransactionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/CreditRatingDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/ItemBrowsingHistoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/ItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/MessageDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/SearchHistoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/TransactionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/CreditRatingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/ItemBrowsingHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/ItemService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/SearchHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/TransactionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/CreditRatingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/ItemBrowsingHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/ItemServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/MessageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/SearchHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/TransactionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CreditRatingDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ItemBrowsingHistoryDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ItemDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/MessageDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SearchHistoryDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TransactionDao.xml" afterDir="false" />
+    <list default="true" id="ed4500d0-42ad-4f57-8955-02f261907ebe" name="变更" comment="30年后端程序员">
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/request..js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/entity/role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c431a608-f51c-42a0-8157-bfe8719721b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c431a608-f51c-42a0-8157-bfe8719721b5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/.env" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/mock/api/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/mock/api/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/mock/model/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/mock/model/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/router/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/service/api/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/service/api/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/PwdLogin/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/PwdLogin/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/jc/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/jc/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/zhr/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/zhr/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/vite.config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nz/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nz/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +44,7 @@
         <option value="Interface" />
         <option value="Vue Single File Component" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -78,37 +61,37 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/软件技术/WorkSapaceIdea/carefree/soybean-admin-thin/src/router/modules",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "d68402d2f2d2ce7f3b90eef4afc1c12c",
-    "ts.external.directory.path": "D:\\软件技术\\WorkSapaceIdea\\carefree\\soybean-admin-thin\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/浏览器下载/ChatGPT-2.1.9-231.RC.zip&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.obiscr.chatgpt.settings.GPT3-3.5-Turbo&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;d68402d2f2d2ce7f3b90eef4afc1c12c&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\软件技术\\WorkSapaceIdea\\carefree\\soybean-admin-thin\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\软件技术\WorkSapaceIdea\carefree\soybean-admin-thin\src\router\modules" />
@@ -123,20 +106,7 @@
       <recent name="D:\软件技术\WorkSapaceIdea\carefree\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BootApplication">
-    <configuration name="Gcrentity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nz.util.Gcrentity" />
-      <module name="carefree" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nz.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="npm.dev">
     <configuration name="BootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <module name="carefree" />
@@ -164,12 +134,10 @@
     <list>
       <item itemvalue="npm.dev" />
       <item itemvalue="Spring Boot.BootApplication" />
-      <item itemvalue="应用程序.Gcrentity" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.BootApplication" />
-        <item itemvalue="应用程序.Gcrentity" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +156,10 @@
       <workItem from="1679980205660" duration="371000" />
       <workItem from="1679982518380" duration="12780000" />
       <workItem from="1679997189124" duration="5666000" />
-      <workItem from="1680012840918" duration="6835000" />
+      <workItem from="1680012840918" duration="8172000" />
+      <workItem from="1680062628700" duration="2083000" />
+      <workItem from="1680070106183" duration="5808000" />
+      <workItem from="1680077097017" duration="8426000" />
     </task>
     <task id="LOCAL-00001" summary="3.28">
       <created>1679933400251</created>
@@ -211,7 +182,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680016715910</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="实体类 dao service impl controller初步建立完成">
+      <created>1680021561153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680021561153</updated>
+    </task>
+    <task id="LOCAL-00005" summary="实体类 dao service impl controller初步建立完成">
+      <created>1680021617524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680021617524</updated>
+    </task>
+    <task id="LOCAL-00006" summary="30年后端程序员">
+      <created>1680022094778</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680022094778</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +225,12 @@
     <MESSAGE value="3.28" />
     <MESSAGE value="3.28 12:37" />
     <MESSAGE value="实体类建完毕" />
-    <option name="LAST_COMMIT_MESSAGE" value="实体类建完毕" />
+    <MESSAGE value="实体类 dao service impl controller初步建立完成" />
+    <MESSAGE value="30年后端程序员" />
+    <option name="LAST_COMMIT_MESSAGE" value="30年后端程序员" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

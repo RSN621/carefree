@@ -45,7 +45,7 @@ const createColumns = () => {
 const tableData = ref([]);
 const columns = ref(createColumns());
 onMounted(() => {
-	axios.get('/url-pattern/userSelect').then((resp) => {
+	axios.get('/api/user/Select').then((resp) => {
 		tableData.value = resp.data;
 	});
 });

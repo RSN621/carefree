@@ -43,7 +43,7 @@ import { useAuthStore } from '@/store';
 import { useRouterPush } from '@/composables';
 import { formRules } from '@/utils';
 import { OtherAccount } from './components';
-
+import {axiosLogin} from "@/service";
 const auth = useAuthStore();
 const { login } = useAuthStore();
 const { toLoginModule } = useRouterPush();
@@ -65,13 +65,24 @@ async function handleSubmit() {
   await formRef.value?.validate();
 
   const { userName, password } = model;
+	//axiosLogin(userName,password);
 
   login(userName, password);
+/*	axios.post('/url-pattern/user/login',{
+		userName:userName,
+		password:password
+	}).then(res=>{
+		router.push('http://localhost:3200/slw/jc');
+	}).catch(error=>{
+		alert(error.res.data.error);
+	})*/
+
 }
 
 function handleLoginOtherAccount(param: { userName: string; password: string }) {
   const { userName, password } = param;
-  login(userName, password);
+	//axiosLogin(userName,password);
+	login(userName, password);
 }
 </script>
 
