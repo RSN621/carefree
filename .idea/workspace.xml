@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4500d0-42ad-4f57-8955-02f261907ebe" name="变更" comment="5.4号商品前端CRUD写出">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nz/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/ItemController.java" afterDir="false" />
-    </list>
+    <list default="true" id="ed4500d0-42ad-4f57-8955-02f261907ebe" name="变更" comment="5.5 0:13后端联调删除ok" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +177,7 @@
       <workItem from="1682174162994" duration="1451000" />
       <workItem from="1682230626316" duration="650000" />
       <workItem from="1682846409122" duration="2469000" />
-      <workItem from="1683212605220" duration="4042000" />
+      <workItem from="1683212605220" duration="4099000" />
     </task>
     <task id="LOCAL-00001" summary="3.28">
       <created>1679933400251</created>
@@ -238,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683213060923</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="5.5 0:13后端联调删除ok">
+      <created>1683216813845</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683216813845</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +267,8 @@
     <MESSAGE value="实体类 dao service impl controller初步建立完成" />
     <MESSAGE value="30年后端程序员" />
     <MESSAGE value="5.4号商品前端CRUD写出" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.4号商品前端CRUD写出" />
+    <MESSAGE value="5.5 0:13后端联调删除ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.5 0:13后端联调删除ok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
