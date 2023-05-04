@@ -5,27 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed4500d0-42ad-4f57-8955-02f261907ebe" name="变更" comment="30年后端程序员">
-      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/request..js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/entity/role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c431a608-f51c-42a0-8157-bfe8719721b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c431a608-f51c-42a0-8157-bfe8719721b5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/public/image/ccl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/public/image/daguo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/public/image/daxz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/public/image/jc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/public/image/jc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/modules/carefree.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/modules/dongtian.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/modules/kjlj.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/modules/shangpin.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/carefree/item/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/carefree/role/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/carefree/user/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/dongtian/fudi/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/dongtian/woekbench/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/kjlj/components/Mygithub.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/kjlj/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/shangpin/item/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/shiro/MyRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/util/GeneralUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nz/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soybean-admin-thin/.env" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/.env-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/.env-config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soybean-admin-thin/mock/api/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/mock/api/route.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soybean-admin-thin/mock/model/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/mock/model/route.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/router/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/router/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/service/api/auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/service/api/auth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/service/request/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/service/request/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/auth/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/auth/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/route/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/store/modules/route/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/typings/api.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/api.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/typings/business.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/business.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/typings/env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/typings/router-page.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/typings/router-page.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/utils/form/rule.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/utils/form/rule.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/PwdLogin/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/PwdLogin/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/Register/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/_builtin/login/components/Register/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/views/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/hyq/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/hyq/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/jc/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/jc/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/zhr/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/src/views/slw/zhr/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/soybean-admin-thin/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/soybean-admin-thin/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nz/BootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nz/BootApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nz/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nz/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/RoleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nz/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nz/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nz/entity/user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nz/entity/user.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +70,9 @@
         <option value="mybatis-cfg.xml" />
         <option value="Mapper" />
         <option value="Interface" />
-        <option value="Vue Single File Component" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -72,7 +100,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/浏览器下载/ChatGPT-2.1.9-231.RC.zip&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/软件技术/WorkSapaceIdea/carefree/soybean-admin-thin/src/views/shangpin/item&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -94,19 +122,25 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\软件技术\WorkSapaceIdea\carefree\soybean-admin-thin\src\router\modules" />
-      <recent name="D:\软件技术\WorkSapaceIdea\carefree\src\main\webapp\soybean-admin-thin\src\views\slw\zhr" />
-      <recent name="D:\软件技术\WorkSapaceIdea\carefree\src\main\webapp\soybean-admin-thin\src\views\slw\jc" />
-      <recent name="D:\软件技术\WorkSapaceIdea\carefree\src\main\webapp\soybean-admin-thin\src\views\slw\hyq" />
+      <recent name="D:\软件技术\WorkSapaceIdea\carefree\soybean-admin-thin\src\views\shangpin\item" />
+      <recent name="D:\软件技术\WorkSapaceIdea\carefree\soybean-admin-thin\src\views\carefree\item" />
+      <recent name="D:\软件技术\WorkSapaceIdea\carefree\soybean-admin-thin\src\views\carefree\item\image" />
       <recent name="D:\软件技术\WorkSapaceIdea\carefree\src\main\resources" />
+      <recent name="D:\软件技术\WorkSapaceIdea\carefree\soybean-admin-thin\src\router\modules" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\软件技术\WorkSapaceIdea\carefree\soybean-admin-thin\public\image" />
+      <recent name="D:\软件技术\WorkSapaceIdea\carefree\soybean-admin-thin\public" />
       <recent name="D:\软件技术\WorkSapaceIdea\carefree\src\main\resources\mapper" />
       <recent name="D:\软件技术\WorkSapaceIdea\carefree" />
       <recent name="D:\软件技术\WorkSapaceIdea\carefree\src\main\webapp" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nz.util" />
+      <recent name="com.nz.shiro" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="Spring Boot.BootApplication">
     <configuration name="BootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="ACTIVE_PROFILES" />
       <module name="carefree" />
@@ -160,6 +194,39 @@
       <workItem from="1680062628700" duration="2083000" />
       <workItem from="1680070106183" duration="5808000" />
       <workItem from="1680077097017" duration="8426000" />
+      <workItem from="1680136150865" duration="12830000" />
+      <workItem from="1680185506760" duration="55000" />
+      <workItem from="1680248252468" duration="4679000" />
+      <workItem from="1680256217126" duration="7648000" />
+      <workItem from="1680270473454" duration="344000" />
+      <workItem from="1680338814862" duration="955000" />
+      <workItem from="1680362173689" duration="2644000" />
+      <workItem from="1680502704293" duration="4220000" />
+      <workItem from="1680513661482" duration="1091000" />
+      <workItem from="1680522951483" duration="7868000" />
+      <workItem from="1680537736929" duration="1774000" />
+      <workItem from="1680587047602" duration="9473000" />
+      <workItem from="1680620619799" duration="1051000" />
+      <workItem from="1680628920763" duration="650000" />
+      <workItem from="1681284378665" duration="981000" />
+      <workItem from="1681288461992" duration="8395000" />
+      <workItem from="1681356608464" duration="1567000" />
+      <workItem from="1681536684203" duration="663000" />
+      <workItem from="1681624605409" duration="12654000" />
+      <workItem from="1681645217952" duration="3000000" />
+      <workItem from="1681709429414" duration="5360000" />
+      <workItem from="1681822623140" duration="816000" />
+      <workItem from="1681864733481" duration="30000" />
+      <workItem from="1681908011106" duration="12850000" />
+      <workItem from="1681950676525" duration="9448000" />
+      <workItem from="1681966041959" duration="13480000" />
+      <workItem from="1682001865389" duration="8543000" />
+      <workItem from="1682054504027" duration="12712000" />
+      <workItem from="1682070701126" duration="3762000" />
+      <workItem from="1682139648301" duration="629000" />
+      <workItem from="1682174162994" duration="1451000" />
+      <workItem from="1682230626316" duration="650000" />
+      <workItem from="1682846409122" duration="2469000" />
     </task>
     <task id="LOCAL-00001" summary="3.28">
       <created>1679933400251</created>
@@ -228,6 +295,22 @@
     <MESSAGE value="实体类 dao service impl controller初步建立完成" />
     <MESSAGE value="30年后端程序员" />
     <option name="LAST_COMMIT_MESSAGE" value="30年后端程序员" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nz/shiro/MyRealm.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nz/shiro/MyRealm.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

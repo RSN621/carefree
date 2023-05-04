@@ -10,10 +10,12 @@ public class user {
     private String identity_card;//身份证号
     private String credit_score;//信用评分
 
+    private String salt;
+
     public user() {
     }
 
-    public user(int id, String name, String student_id, String phone, String email, String password, String identity_card, String credit_score) {
+    public user(int id, String name, String student_id, String phone, String email, String password, String identity_card, String credit_score, String salt) {
         this.id = id;
         this.name = name;
         this.student_id = student_id;
@@ -22,6 +24,7 @@ public class user {
         this.password = password;
         this.identity_card = identity_card;
         this.credit_score = credit_score;
+        this.salt = salt;
     }
 
     @Override
@@ -35,6 +38,7 @@ public class user {
                 ", password='" + password + '\'' +
                 ", identity_card='" + identity_card + '\'' +
                 ", credit_score='" + credit_score + '\'' +
+                ", salt='" + salt + '\'' +
                 '}';
     }
 
@@ -100,5 +104,13 @@ public class user {
 
     public void setCredit_score(String credit_score) {
         this.credit_score = credit_score;
+    }
+
+    public String getSalt() {
+        return salt;
+    }
+
+    public void setSalt(String salt) {
+        this.salt = salt;
     }
 }
