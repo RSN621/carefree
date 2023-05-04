@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -31,9 +30,9 @@ public class ItemController{
     @ResponseBody
     public boolean deleteById(@RequestBody Map map){
         System.out.println(map);
-        ArrayList<Integer> l1=new ArrayList<>();
-        l1= (ArrayList<Integer>) map.get("selectedRowId");
-        boolean result=itemService.removeById(l1.get(0));
+        int id= (Integer) map.get("id");
+        System.out.println(id);
+        boolean result=itemService.removeById(id);
         return result;
     }
 }
